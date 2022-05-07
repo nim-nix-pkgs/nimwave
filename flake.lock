@@ -3,20 +3,22 @@
     "ansiutils": {
       "inputs": {
         "flakeNimbleLib": [
+          "nimwave-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "nimwave-master",
           "nixpkgs"
         ],
         "src-ansiutils-master": "src-ansiutils-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651917710,
-        "narHash": "sha256-O92r836R42szLP0YcboJh40H5TyLsj56RGnGSmeQFtw=",
+        "lastModified": 1651890160,
+        "narHash": "sha256-HcY8XHlB1vGEVoIDl5C4KBKQ3A1YgqLAzAUMIBnH7HI=",
         "owner": "nim-nix-pkgs",
         "repo": "ansiutils",
-        "rev": "15db6f07d1adb242b5853e27fb5f1eb39e5ca0f6",
+        "rev": "9c46ba5c7efffcf715c0e562c57c1b480d77d1f1",
         "type": "github"
       },
       "original": {
@@ -51,20 +53,22 @@
     "illwave": {
       "inputs": {
         "flakeNimbleLib": [
+          "nimwave-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "nimwave-master",
           "nixpkgs"
         ],
         "src-illwave-master": "src-illwave-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918026,
-        "narHash": "sha256-C+hQS+0F83qA+29mavbrW2BhpsR5sfsjAVVnch11E9A=",
+        "lastModified": 1651890227,
+        "narHash": "sha256-mtPjtamZckjfW3hB5dHvgwB81u7O6cuKNOLCvIqVBnA=",
         "owner": "nim-nix-pkgs",
         "repo": "illwave",
-        "rev": "b422857f238eccc52c14f503862dcf5e4b699072",
+        "rev": "a376712a86c531127cde4b741295123f74821279",
         "type": "github"
       },
       "original": {
@@ -72,6 +76,35 @@
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "illwave",
+        "type": "github"
+      }
+    },
+    "nimwave-master": {
+      "inputs": {
+        "ansiutils": "ansiutils",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "illwave": "illwave",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-nimwave-master": "src-nimwave-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651890667,
+        "narHash": "sha256-9RR0rkiDK5+ePtiQz1HCfu405JKN9M1hsb3wC6XDnxA=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimwave",
+        "rev": "7b3eeaa983aa6284de2f01c19e27ea231d618560",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimwave",
         "type": "github"
       }
     },
@@ -88,11 +121,9 @@
     },
     "root": {
       "inputs": {
-        "ansiutils": "ansiutils",
         "flakeNimbleLib": "flakeNimbleLib",
-        "illwave": "illwave",
-        "nixpkgs": "nixpkgs",
-        "src-nimwave-master": "src-nimwave-master"
+        "nimwave-master": "nimwave-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-ansiutils-master": {
@@ -132,11 +163,11 @@
     "src-nimwave-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1651917250,
-        "narHash": "sha256-36/X3kC4gGfWVGWGK/KnTm+fuJ+kZllH+lSixk7tgI8=",
+        "lastModified": 1651852012,
+        "narHash": "sha256-Oix6qWl0oUtYtH3Db8itP5deX0NvdPxNvDQUO/eoCT4=",
         "owner": "ansiwave",
         "repo": "nimwave",
-        "rev": "a5ec6c383dce62cb5721b0230ee91480a32bf5e8",
+        "rev": "c2f77859d414acba218d3c8ea6ec249a25465a5a",
         "type": "github"
       },
       "original": {
