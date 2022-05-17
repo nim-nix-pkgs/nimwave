@@ -151,11 +151,11 @@
       },
       "locked": {
         "dir": "0_1_0",
-        "lastModified": 1652765438,
-        "narHash": "sha256-UvK2qBv5h8K6ADA7JEqO8clO89IFOWZ4cHiTJIHGaAc=",
+        "lastModified": 1652793461,
+        "narHash": "sha256-U6eg8WA7zDdYfzaR8ZMes8sUZy/q/T9py/mwpr0w/hg=",
         "owner": "nim-nix-pkgs",
         "repo": "nimwave",
-        "rev": "caa35650d1a445f432fad0161edbcad52e870b81",
+        "rev": "9806691a8456ef083a457d06b4abd141aa11ef3a",
         "type": "github"
       },
       "original": {
@@ -180,11 +180,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1652765438,
-        "narHash": "sha256-UvK2qBv5h8K6ADA7JEqO8clO89IFOWZ4cHiTJIHGaAc=",
+        "lastModified": 1652793461,
+        "narHash": "sha256-U6eg8WA7zDdYfzaR8ZMes8sUZy/q/T9py/mwpr0w/hg=",
         "owner": "nim-nix-pkgs",
         "repo": "nimwave",
-        "rev": "caa35650d1a445f432fad0161edbcad52e870b81",
+        "rev": "9806691a8456ef083a457d06b4abd141aa11ef3a",
         "type": "github"
       },
       "original": {
@@ -302,11 +302,11 @@
     "src-nimwave-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1652364637,
-        "narHash": "sha256-JsaDSbb+e1EXHrvRua3LWx5xsfCqB6JdCe50u76UduA=",
+        "lastModified": 1652788914,
+        "narHash": "sha256-1nX2c0DGSQtca+N5SCPPzeucSUSVm2Fi7UxF5L/piE8=",
         "owner": "ansiwave",
         "repo": "nimwave",
-        "rev": "a4d900e71e823499fcab14ea768bd463b218ba5d",
+        "rev": "851e12be47bcbe55c558627ec963fe962f2410c2",
         "type": "github"
       },
       "original": {
