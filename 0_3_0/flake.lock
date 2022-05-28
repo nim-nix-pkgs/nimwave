@@ -92,7 +92,7 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "illwave": "illwave",
         "nixpkgs": "nixpkgs",
-        "src-nimwave-master": "src-nimwave-master"
+        "src-nimwave-0_3_0": "src-nimwave-0_3_0"
       }
     },
     "src-ansiutils-0_1_0": {
@@ -129,7 +129,7 @@
         "type": "github"
       }
     },
-    "src-nimwave-master": {
+    "src-nimwave-0_3_0": {
       "flake": false,
       "locked": {
         "lastModified": 1653663231,
@@ -141,7 +141,7 @@
       },
       "original": {
         "owner": "ansiwave",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/0.3.0",
         "repo": "nimwave",
         "type": "github"
       }
